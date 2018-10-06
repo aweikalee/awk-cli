@@ -1,13 +1,11 @@
 {
   "name": "awk-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "bin": {
-    "awk-cli": "./bin/awk-cli.js"
+    "awk": "./bin/awk.js"
   },
   "author": "aweikalee",
   "license": "MIT",
@@ -15,6 +13,7 @@
     "chalk": "^2.4.1",
     "commander": "^2.18.0",
     "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.0",
     "ora": "^3.0.0"
   }
 }
